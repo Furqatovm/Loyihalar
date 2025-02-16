@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title  }}</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <header>
+        <div class="wrapper-header">
+            <div class="wrapper-sarlavha">
+                <h1 class="sarlavha1">Mening websitimga xush kelibsiz</h1>
+            </div>
+
+    <!-- <h2>Maqolalar</h2> -->
+
+
+    {% for slug, article in articles.items() %}
+    <a href="/blog/{{ slug }}">{{ article.title }}</a> <br>
+    {% endfor %}
+        </div>
+    </header>
+
+    <main>
+        <div class="wrapper-main">
+            <section class="hero">
+                <div class="hero-left">
+                    <h1 class="hero-h1">I'm website <span class="develop">developer</span> </h1>
+                    <div class="wrapper-btn">
+                        <button class="hero-btn">Learn more</button>
+                    </div>
+                </div>
+                <div class="hero-right">
+                    <img src="../static/odammm.png" alt="" class="developer-img">
+                </div>
+            </section>
+        </div>
+    </main>
+    
+</body>
+</html>

@@ -1,0 +1,145 @@
+*,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    margin-left: 15px;
+
+}
+.main-sarlavha{
+    color: white;
+    font-size: 50px;
+}
+.sarlavha{
+    font-size: 45px;
+    color: white;
+    text-align: center;
+}
+header{
+    background-color: #2a9d8f;
+}
+.wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+main{
+    background-color:#264653;
+}
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.hero{
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.article-first{
+    color: white;
+    font-size: 40px;
+}
+.matn{
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2%;
+}
+.tugma{
+    font-size: 18px;
+    padding: 15px 40px;
+    color: white;
+    background-color: rgb(255, 174, 0);
+    border: none;
+    border-radius: 5px;
+}
+
+.hero-right-img{
+    width: 500px;
+    border-radius: 10px;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+a:hover{
+    border-bottom: 2px solid white;
+}
+button:hover{
+    background-color: rgba(255, 166, 0, 0.652);
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.742);
+}
+.sarlavha:hover{
+    color: rgba(255, 255, 255, 0.716);
+}
+.wrapper-p{
+    background-color: #2a9d8f;
+}
+.heading-h2{
+    color: white;
+    font-size: 40px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    text-align: center;
+}
+.matnn{
+    color: white;
+    font-size: 18px;
+    text-align: start;
+}
+
+.hero-left{
+    width: 40%;
+}
+
+@media (max-width: 768px){
+    nav{
+        display: none;
+    }
+    .sarlavha{
+        font-size: 50px;
+        text-align: center;
+    }
+    .wrap{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .alohida{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .hero-left{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .matnn{
+        text-align: center;
+    }
+    .hero-left{
+        width: 80%;
+    }
+}

@@ -1,0 +1,5 @@
+.venv
+addNumbers/
+git rm -r --cached .venv addNumbers
+git commit -m
+git push origin main

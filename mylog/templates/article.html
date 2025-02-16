@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title> {{ article.title }}</title>
+    <link rel="stylesheet" href="../static/article.css">
+</head>
+<body>
+    <header>
+        <div class="wrap">
+            <div class="wrapper-header">
+                <h2 class="sarlavha">Bloglar</h2>
+            </div>
+            <nav>
+                <a href="#" class="nav-child">Home</a>
+                <a href="#" class="nav-child">Prodcuts</a>
+                <a href="#" class="nav-child">Articles</a>
+                <a href="#" class="nav-child">Menu</a>
+            </nav>
+        </div>
+        
+    </header>
+    <main>
+        <div class="wrapper-main">
+            <!-- <div class="for-sarlavha">
+                <h1 class="main-sarlavha">Men yozgan maqolalar</h1>
+            </div> -->
+            <section class="hero">
+                <div class="hero-left">
+                    <h2 class="article-first">Birinchi article</h2>
+                    <p class="matnn"> {{ article.content }}</p>
+                    <div class="wrapper-btn">
+                        <button class="tugma">Learn more</button>
+                    </div>
+                </div>
+
+                <div class="hero-right">
+                    <img src="../static/blogimage.jpg" alt="" class="hero-right-img">
+                </div>
+            </section>
+
+            <section class="hero alohida">
+
+                <div class="hero-right">
+                    <img src="../static/blog2.jpg" alt="" class="hero-right-img">
+                </div>
+                <div class="hero-left">
+                    <h2 class="article-first">Birinchi article</h2>
+                    <p class="matnn"> {{ article.content }}</p>
+                    <div class="wrapper-btn">
+                        <button class="tugma">Learn more</button>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+    <div class="wrapper-p">
+            <h2 class="heading-h2">Mening maqolalarim</h2>
+        
+    </div>
+
+    
+
+
+</body>
+</html>
+

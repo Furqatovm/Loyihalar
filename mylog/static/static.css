@@ -1,0 +1,68 @@
+*,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../static/bakcgorund.jpg);
+    width: 100vw;
+    height: 100vh;
+    
+}
+h3{
+    color: red;
+}
+form{
+    backdrop-filter: blur(20px);
+    border: 2px solid lightgray;
+    width: 400px;
+    height: 500px;
+    border-radius: 5px;
+    padding: 20px 40px;
+   
+}
+.input{
+    padding: 10px 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: transparent;
+    border: 1px solid lightgray;
+    color: white;
+    font-size: 18px;
+
+}
+.label{
+    color: white;
+    font-size: 18px;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+.input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.wrapper-btn{
+    display: flex;
+    justify-content: center;
+}
+.tugma{
+    padding: 10px 138px;
+}
+.tugma:hover{
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.752);
+}
+.wrapper-btn{
+    margin-top: 20px;
+}
+.input:hover{
+    cursor: pointer;
+    color: rgba(211, 211, 211, 0.703);
+}
