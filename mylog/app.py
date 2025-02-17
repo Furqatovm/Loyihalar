@@ -93,11 +93,11 @@ def uy():
         content = request.form.get("matn", "").strip()
 
         if title and content:
-            filename = f"articles/{title.replace(' ', '_')}.md"
+            filename = f"articles/{title.replace(' ', '-')}.md"
             with open(filename, "w", encoding="utf-8") as f:
                 f.write(f"# {title}\n\n{content}")
 
-            return "Article Published Successfully!"
+            return redirect("/")
 
     return render_template("publish.html")
 
